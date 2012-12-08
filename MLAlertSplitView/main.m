@@ -1,8 +1,8 @@
 //
 //  main.m
-//  MLSplitAlert
+//  MLAlertSplitView
 //
-//  Created by Marius Landwehr on 02.12.12.
+//  Created by Marius Landwehr on 08.12.12.
 //  Copyright (c) 2012 Marius Landwehr. All rights reserved.
 //
 

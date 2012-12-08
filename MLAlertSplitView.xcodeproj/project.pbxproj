@@ -7,362 +7,232 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29521FCB166D5A4C00959B2C /* MLSplitAlertTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29521FC9166D5A4C00959B2C /* MLSplitAlertTests-Info.plist */; };
-		29521FCF166D5A5D00959B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29521FCD166D5A5D00959B2C /* InfoPlist.strings */; };
-		29521FD2166D5A7A00959B2C /* MLSplitAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FD1166D5A7A00959B2C /* MLSplitAlertTests.m */; };
-		29521FD6166D5A9400959B2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29521FD3166D5A9400959B2C /* Default-568h@2x.png */; };
-		29521FD7166D5A9400959B2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29521FD4166D5A9400959B2C /* Default.png */; };
-		29521FD8166D5A9400959B2C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29521FD5166D5A9400959B2C /* Default@2x.png */; };
-		29521FDF166D5AB300959B2C /* MLSplitAlert-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29521FDA166D5AAB00959B2C /* MLSplitAlert-Info.plist */; };
-		29521FE0166D5AB800959B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FD9166D5AAB00959B2C /* main.m */; };
-		29521FE9166D5B0200959B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29521FE1166D5B0200959B2C /* InfoPlist.strings */; };
-		29521FEA166D5B0200959B2C /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FE4166D5B0200959B2C /* MLAppDelegate.m */; };
-		29521FEB166D5B0200959B2C /* MLExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FE6166D5B0200959B2C /* MLExampleViewController.m */; };
-		29521FEC166D5B0200959B2C /* MLExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29521FE7166D5B0200959B2C /* MLExampleViewController.xib */; };
-		29521FED166D5B0200959B2C /* StupidFox_Loves_Books_by_SilentReaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29521FE8166D5B0200959B2C /* StupidFox_Loves_Books_by_SilentReaper.jpg */; };
-		29521FF7166D5B1100959B2C /* MLAlertSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FEF166D5B1100959B2C /* MLAlertSplitView.m */; };
-		29521FF8166D5B1100959B2C /* MLRoundTransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FF2166D5B1100959B2C /* MLRoundTransparentButton.m */; };
-		29521FF9166D5B1100959B2C /* UIImage+MLCutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FF4166D5B1100959B2C /* UIImage+MLCutImage.m */; };
-		29521FFA166D5B1100959B2C /* UIView+MLScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 29521FF6166D5B1100959B2C /* UIView+MLScreenshot.m */; };
-		29BDF0C9166B622900A4C87C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF0C8166B622900A4C87C /* UIKit.framework */; };
-		29BDF0CB166B622900A4C87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF0CA166B622900A4C87C /* Foundation.framework */; };
-		29BDF0CD166B622900A4C87C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF0CC166B622900A4C87C /* CoreGraphics.framework */; };
-		29BDF0E7166B622900A4C87C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF0E6166B622900A4C87C /* SenTestingKit.framework */; };
-		29BDF0E8166B622900A4C87C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF0C8166B622900A4C87C /* UIKit.framework */; };
-		29BDF0E9166B622900A4C87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF0CA166B622900A4C87C /* Foundation.framework */; };
-		29BDF101166B76AD00A4C87C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDF100166B76AD00A4C87C /* QuartzCore.framework */; };
+		29E54FC1167384870057FDA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E54FC0167384870057FDA1 /* UIKit.framework */; };
+		29E54FC3167384870057FDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E54FC2167384870057FDA1 /* Foundation.framework */; };
+		29E54FC5167384870057FDA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E54FC4167384870057FDA1 /* CoreGraphics.framework */; };
+		29E54FCB167384870057FDA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FC9167384870057FDA1 /* InfoPlist.strings */; };
+		29E54FCD167384870057FDA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FCC167384870057FDA1 /* main.m */; };
+		29E54FD1167384870057FDA1 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FD0167384870057FDA1 /* MLAppDelegate.m */; };
+		29E54FD3167384870057FDA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FD2167384870057FDA1 /* Default.png */; };
+		29E54FD5167384870057FDA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FD4167384870057FDA1 /* Default@2x.png */; };
+		29E54FD7167384870057FDA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FD6167384870057FDA1 /* Default-568h@2x.png */; };
+		29E55002167385430057FDA1 /* MLAlertSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FFA167385430057FDA1 /* MLAlertSplitView.m */; };
+		29E55003167385430057FDA1 /* MLRoundTransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FFD167385430057FDA1 /* MLRoundTransparentButton.m */; };
+		29E55004167385430057FDA1 /* UIImage+MLCutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FFF167385430057FDA1 /* UIImage+MLCutImage.m */; };
+		29E55005167385430057FDA1 /* UIView+MLScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E55001167385430057FDA1 /* UIView+MLScreenshot.m */; };
+		29E550091673856D0057FDA1 /* MLExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E550071673856D0057FDA1 /* MLExampleViewController.m */; };
+		29E5500A1673856D0057FDA1 /* MLExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E550081673856D0057FDA1 /* MLExampleViewController.xib */; };
+		29E5500D167385D10057FDA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E5500C167385D10057FDA1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		29BDF0EA166B622900A4C87C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29BDF0BB166B622900A4C87C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 29BDF0C3166B622900A4C87C;
-			remoteInfo = MLSplitAlert;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		29521FC9166D5A4C00959B2C /* MLSplitAlertTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MLSplitAlertTests-Info.plist"; path = "MLAlertSplitViewTests/MLSplitAlertTests-Info.plist"; sourceTree = SOURCE_ROOT; };
-		29521FCE166D5A5D00959B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		29521FD0166D5A7A00959B2C /* MLSplitAlertTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLSplitAlertTests.h; path = MLAlertSplitViewTests/MLSplitAlertTests.h; sourceTree = SOURCE_ROOT; };
-		29521FD1166D5A7A00959B2C /* MLSplitAlertTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLSplitAlertTests.m; path = MLAlertSplitViewTests/MLSplitAlertTests.m; sourceTree = SOURCE_ROOT; };
-		29521FD3166D5A9400959B2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "MLAlertSplitView/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		29521FD4166D5A9400959B2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = MLAlertSplitView/Default.png; sourceTree = SOURCE_ROOT; };
-		29521FD5166D5A9400959B2C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "MLAlertSplitView/Default@2x.png"; sourceTree = SOURCE_ROOT; };
-		29521FD9166D5AAB00959B2C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MLAlertSplitView/main.m; sourceTree = SOURCE_ROOT; };
-		29521FDA166D5AAB00959B2C /* MLSplitAlert-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MLSplitAlert-Info.plist"; path = "MLAlertSplitView/MLSplitAlert-Info.plist"; sourceTree = SOURCE_ROOT; };
-		29521FDB166D5AAB00959B2C /* MLSplitAlert-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MLSplitAlert-Prefix.pch"; path = "MLAlertSplitView/MLSplitAlert-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		29521FE2166D5B0200959B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MLAlertSplitView/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		29521FE3166D5B0200959B2C /* MLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAppDelegate.h; path = MLAlertSplitView/MLAppDelegate.h; sourceTree = SOURCE_ROOT; };
-		29521FE4166D5B0200959B2C /* MLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAppDelegate.m; path = MLAlertSplitView/MLAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		29521FE5166D5B0200959B2C /* MLExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLExampleViewController.h; path = MLAlertSplitView/MLExampleViewController.h; sourceTree = SOURCE_ROOT; };
-		29521FE6166D5B0200959B2C /* MLExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLExampleViewController.m; path = MLAlertSplitView/MLExampleViewController.m; sourceTree = SOURCE_ROOT; };
-		29521FE7166D5B0200959B2C /* MLExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MLExampleViewController.xib; path = MLAlertSplitView/MLExampleViewController.xib; sourceTree = SOURCE_ROOT; };
-		29521FE8166D5B0200959B2C /* StupidFox_Loves_Books_by_SilentReaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = StupidFox_Loves_Books_by_SilentReaper.jpg; path = MLAlertSplitView/StupidFox_Loves_Books_by_SilentReaper.jpg; sourceTree = SOURCE_ROOT; };
-		29521FEE166D5B1100959B2C /* MLAlertSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAlertSplitView.h; path = MLAlertSplitView/Classes/MLAlertSplitView.h; sourceTree = SOURCE_ROOT; };
-		29521FEF166D5B1100959B2C /* MLAlertSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLAlertSplitView.m; path = MLAlertSplitView/Classes/MLAlertSplitView.m; sourceTree = SOURCE_ROOT; };
-		29521FF0166D5B1100959B2C /* MLAlertSplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLAlertSplitViewDelegate.h; path = MLAlertSplitView/Classes/MLAlertSplitViewDelegate.h; sourceTree = SOURCE_ROOT; };
-		29521FF1166D5B1100959B2C /* MLRoundTransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLRoundTransparentButton.h; path = MLAlertSplitView/Classes/MLRoundTransparentButton.h; sourceTree = SOURCE_ROOT; };
-		29521FF2166D5B1100959B2C /* MLRoundTransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLRoundTransparentButton.m; path = MLAlertSplitView/Classes/MLRoundTransparentButton.m; sourceTree = SOURCE_ROOT; };
-		29521FF3166D5B1100959B2C /* UIImage+MLCutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MLCutImage.h"; path = "MLAlertSplitView/Classes/UIImage+MLCutImage.h"; sourceTree = SOURCE_ROOT; };
-		29521FF4166D5B1100959B2C /* UIImage+MLCutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MLCutImage.m"; path = "MLAlertSplitView/Classes/UIImage+MLCutImage.m"; sourceTree = SOURCE_ROOT; };
-		29521FF5166D5B1100959B2C /* UIView+MLScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MLScreenshot.h"; path = "MLAlertSplitView/Classes/UIView+MLScreenshot.h"; sourceTree = SOURCE_ROOT; };
-		29521FF6166D5B1100959B2C /* UIView+MLScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MLScreenshot.m"; path = "MLAlertSplitView/Classes/UIView+MLScreenshot.m"; sourceTree = SOURCE_ROOT; };
-		29BDF0C4166B622900A4C87C /* MLSplitAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MLSplitAlert.app; path = MLAlertSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29BDF0C8166B622900A4C87C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		29BDF0CA166B622900A4C87C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		29BDF0CC166B622900A4C87C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		29BDF0E5166B622900A4C87C /* MLSplitAlertTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MLSplitAlertTests.octest; path = MLAlertSplitViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29BDF0E6166B622900A4C87C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		29BDF100166B76AD00A4C87C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29E54FBC167384870057FDA1 /* MLAlertSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLAlertSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E54FC0167384870057FDA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29E54FC2167384870057FDA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29E54FC4167384870057FDA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29E54FC8167384870057FDA1 /* MLAlertSplitView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLAlertSplitView-Info.plist"; sourceTree = "<group>"; };
+		29E54FCA167384870057FDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29E54FCC167384870057FDA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E54FCE167384870057FDA1 /* MLAlertSplitView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLAlertSplitView-Prefix.pch"; sourceTree = "<group>"; };
+		29E54FCF167384870057FDA1 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		29E54FD0167384870057FDA1 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		29E54FD2167384870057FDA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		29E54FD4167384870057FDA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		29E54FD6167384870057FDA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		29E54FF9167385430057FDA1 /* MLAlertSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlertSplitView.h; sourceTree = "<group>"; };
+		29E54FFA167385430057FDA1 /* MLAlertSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlertSplitView.m; sourceTree = "<group>"; };
+		29E54FFB167385430057FDA1 /* MLAlertSplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlertSplitViewDelegate.h; sourceTree = "<group>"; };
+		29E54FFC167385430057FDA1 /* MLRoundTransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRoundTransparentButton.h; sourceTree = "<group>"; };
+		29E54FFD167385430057FDA1 /* MLRoundTransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRoundTransparentButton.m; sourceTree = "<group>"; };
+		29E54FFE167385430057FDA1 /* UIImage+MLCutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLCutImage.h"; sourceTree = "<group>"; };
+		29E54FFF167385430057FDA1 /* UIImage+MLCutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLCutImage.m"; sourceTree = "<group>"; };
+		29E55000167385430057FDA1 /* UIView+MLScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLScreenshot.h"; sourceTree = "<group>"; };
+		29E55001167385430057FDA1 /* UIView+MLScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLScreenshot.m"; sourceTree = "<group>"; };
+		29E550061673856D0057FDA1 /* MLExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExampleViewController.h; sourceTree = "<group>"; };
+		29E550071673856D0057FDA1 /* MLExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExampleViewController.m; sourceTree = "<group>"; };
+		29E550081673856D0057FDA1 /* MLExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLExampleViewController.xib; sourceTree = "<group>"; };
+		29E5500C167385D10057FDA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29BDF0C1166B622900A4C87C /* Frameworks */ = {
+		29E54FB9167384870057FDA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BDF101166B76AD00A4C87C /* QuartzCore.framework in Frameworks */,
-				29BDF0C9166B622900A4C87C /* UIKit.framework in Frameworks */,
-				29BDF0CB166B622900A4C87C /* Foundation.framework in Frameworks */,
-				29BDF0CD166B622900A4C87C /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29BDF0E1166B622900A4C87C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29BDF0E7166B622900A4C87C /* SenTestingKit.framework in Frameworks */,
-				29BDF0E8166B622900A4C87C /* UIKit.framework in Frameworks */,
-				29BDF0E9166B622900A4C87C /* Foundation.framework in Frameworks */,
+				29E5500D167385D10057FDA1 /* QuartzCore.framework in Frameworks */,
+				29E54FC1167384870057FDA1 /* UIKit.framework in Frameworks */,
+				29E54FC3167384870057FDA1 /* Foundation.framework in Frameworks */,
+				29E54FC5167384870057FDA1 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29521FCC166D5A5D00959B2C /* en.lproj */ = {
+		29E54FB1167384870057FDA1 = {
 			isa = PBXGroup;
 			children = (
-				29521FCD166D5A5D00959B2C /* InfoPlist.strings */,
-			);
-			name = en.lproj;
-			path = MLAlertSplitViewTests/en.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
-		29521FFB166D5B1500959B2C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				29521FEE166D5B1100959B2C /* MLAlertSplitView.h */,
-				29521FEF166D5B1100959B2C /* MLAlertSplitView.m */,
-				29521FF0166D5B1100959B2C /* MLAlertSplitViewDelegate.h */,
-				29521FF1166D5B1100959B2C /* MLRoundTransparentButton.h */,
-				29521FF2166D5B1100959B2C /* MLRoundTransparentButton.m */,
-				29521FF3166D5B1100959B2C /* UIImage+MLCutImage.h */,
-				29521FF4166D5B1100959B2C /* UIImage+MLCutImage.m */,
-				29521FF5166D5B1100959B2C /* UIView+MLScreenshot.h */,
-				29521FF6166D5B1100959B2C /* UIView+MLScreenshot.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		29BDF0B9166B622900A4C87C = {
-			isa = PBXGroup;
-			children = (
-				29BDF0CE166B622900A4C87C /* MLSplitAlert */,
-				29BDF0EC166B622900A4C87C /* MLSplitAlertTests */,
-				29BDF0C7166B622900A4C87C /* Frameworks */,
-				29BDF0C5166B622900A4C87C /* Products */,
+				29E54FC6167384870057FDA1 /* MLAlertSplitView */,
+				29E54FBF167384870057FDA1 /* Frameworks */,
+				29E54FBD167384870057FDA1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		29BDF0C5166B622900A4C87C /* Products */ = {
+		29E54FBD167384870057FDA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29BDF0C4166B622900A4C87C /* MLSplitAlert.app */,
-				29BDF0E5166B622900A4C87C /* MLSplitAlertTests.octest */,
+				29E54FBC167384870057FDA1 /* MLAlertSplitView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29BDF0C7166B622900A4C87C /* Frameworks */ = {
+		29E54FBF167384870057FDA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29BDF100166B76AD00A4C87C /* QuartzCore.framework */,
-				29BDF0C8166B622900A4C87C /* UIKit.framework */,
-				29BDF0CA166B622900A4C87C /* Foundation.framework */,
-				29BDF0CC166B622900A4C87C /* CoreGraphics.framework */,
-				29BDF0E6166B622900A4C87C /* SenTestingKit.framework */,
+				29E5500C167385D10057FDA1 /* QuartzCore.framework */,
+				29E54FC0167384870057FDA1 /* UIKit.framework */,
+				29E54FC2167384870057FDA1 /* Foundation.framework */,
+				29E54FC4167384870057FDA1 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		29BDF0CE166B622900A4C87C /* MLSplitAlert */ = {
+		29E54FC6167384870057FDA1 /* MLAlertSplitView */ = {
 			isa = PBXGroup;
 			children = (
-				29521FFB166D5B1500959B2C /* Classes */,
-				29521FE1166D5B0200959B2C /* InfoPlist.strings */,
-				29521FE3166D5B0200959B2C /* MLAppDelegate.h */,
-				29521FE4166D5B0200959B2C /* MLAppDelegate.m */,
-				29521FE5166D5B0200959B2C /* MLExampleViewController.h */,
-				29521FE6166D5B0200959B2C /* MLExampleViewController.m */,
-				29521FE7166D5B0200959B2C /* MLExampleViewController.xib */,
-				29521FE8166D5B0200959B2C /* StupidFox_Loves_Books_by_SilentReaper.jpg */,
-				29BDF0CF166B622900A4C87C /* Supporting Files */,
+				29E5500B1673857F0057FDA1 /* Example */,
+				29E54FF8167385430057FDA1 /* Classes */,
+				29E54FC7167384870057FDA1 /* Supporting Files */,
 			);
-			path = MLSplitAlert;
+			path = MLAlertSplitView;
 			sourceTree = "<group>";
 		};
-		29BDF0CF166B622900A4C87C /* Supporting Files */ = {
+		29E54FC7167384870057FDA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				29521FD3166D5A9400959B2C /* Default-568h@2x.png */,
-				29521FD4166D5A9400959B2C /* Default.png */,
-				29521FD5166D5A9400959B2C /* Default@2x.png */,
-				29521FD9166D5AAB00959B2C /* main.m */,
-				29521FDA166D5AAB00959B2C /* MLSplitAlert-Info.plist */,
-				29521FDB166D5AAB00959B2C /* MLSplitAlert-Prefix.pch */,
+				29E54FC8167384870057FDA1 /* MLAlertSplitView-Info.plist */,
+				29E54FC9167384870057FDA1 /* InfoPlist.strings */,
+				29E54FCC167384870057FDA1 /* main.m */,
+				29E54FCE167384870057FDA1 /* MLAlertSplitView-Prefix.pch */,
+				29E54FD2167384870057FDA1 /* Default.png */,
+				29E54FD4167384870057FDA1 /* Default@2x.png */,
+				29E54FD6167384870057FDA1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		29BDF0EC166B622900A4C87C /* MLSplitAlertTests */ = {
+		29E54FF8167385430057FDA1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				29BDF0ED166B622900A4C87C /* Supporting Files */,
+				29E54FF9167385430057FDA1 /* MLAlertSplitView.h */,
+				29E54FFA167385430057FDA1 /* MLAlertSplitView.m */,
+				29E54FFB167385430057FDA1 /* MLAlertSplitViewDelegate.h */,
+				29E54FFC167385430057FDA1 /* MLRoundTransparentButton.h */,
+				29E54FFD167385430057FDA1 /* MLRoundTransparentButton.m */,
+				29E54FFE167385430057FDA1 /* UIImage+MLCutImage.h */,
+				29E54FFF167385430057FDA1 /* UIImage+MLCutImage.m */,
+				29E55000167385430057FDA1 /* UIView+MLScreenshot.h */,
+				29E55001167385430057FDA1 /* UIView+MLScreenshot.m */,
 			);
-			path = MLSplitAlertTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		29BDF0ED166B622900A4C87C /* Supporting Files */ = {
+		29E5500B1673857F0057FDA1 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				29521FD0166D5A7A00959B2C /* MLSplitAlertTests.h */,
-				29521FD1166D5A7A00959B2C /* MLSplitAlertTests.m */,
-				29521FCC166D5A5D00959B2C /* en.lproj */,
-				29521FC9166D5A4C00959B2C /* MLSplitAlertTests-Info.plist */,
+				29E54FCF167384870057FDA1 /* MLAppDelegate.h */,
+				29E54FD0167384870057FDA1 /* MLAppDelegate.m */,
+				29E550061673856D0057FDA1 /* MLExampleViewController.h */,
+				29E550071673856D0057FDA1 /* MLExampleViewController.m */,
+				29E550081673856D0057FDA1 /* MLExampleViewController.xib */,
 			);
-			name = "Supporting Files";
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29BDF0C3166B622900A4C87C /* MLAlertSplitView */ = {
+		29E54FBB167384870057FDA1 /* MLAlertSplitView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29BDF0F7166B622900A4C87C /* Build configuration list for PBXNativeTarget "MLAlertSplitView" */;
+			buildConfigurationList = 29E54FDA167384870057FDA1 /* Build configuration list for PBXNativeTarget "MLAlertSplitView" */;
 			buildPhases = (
-				29BDF0C0166B622900A4C87C /* Sources */,
-				29BDF0C1166B622900A4C87C /* Frameworks */,
-				29BDF0C2166B622900A4C87C /* Resources */,
+				29E54FB8167384870057FDA1 /* Sources */,
+				29E54FB9167384870057FDA1 /* Frameworks */,
+				29E54FBA167384870057FDA1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MLAlertSplitView;
-			productName = MLSplitAlert;
-			productReference = 29BDF0C4166B622900A4C87C /* MLSplitAlert.app */;
+			productName = MLAlertSplitView;
+			productReference = 29E54FBC167384870057FDA1 /* MLAlertSplitView.app */;
 			productType = "com.apple.product-type.application";
-		};
-		29BDF0E4166B622900A4C87C /* MLAlertSplitViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29BDF0FA166B622900A4C87C /* Build configuration list for PBXNativeTarget "MLAlertSplitViewTests" */;
-			buildPhases = (
-				29BDF0E0166B622900A4C87C /* Sources */,
-				29BDF0E1166B622900A4C87C /* Frameworks */,
-				29BDF0E2166B622900A4C87C /* Resources */,
-				29BDF0E3166B622900A4C87C /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				29BDF0EB166B622900A4C87C /* PBXTargetDependency */,
-			);
-			name = MLAlertSplitViewTests;
-			productName = MLSplitAlertTests;
-			productReference = 29BDF0E5166B622900A4C87C /* MLSplitAlertTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29BDF0BB166B622900A4C87C /* Project object */ = {
+		29E54FB3167384870057FDA1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ML;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Marius Landwehr";
 			};
-			buildConfigurationList = 29BDF0BE166B622900A4C87C /* Build configuration list for PBXProject "MLAlertSplitView" */;
+			buildConfigurationList = 29E54FB6167384870057FDA1 /* Build configuration list for PBXProject "MLAlertSplitView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 29BDF0B9166B622900A4C87C;
-			productRefGroup = 29BDF0C5166B622900A4C87C /* Products */;
+			mainGroup = 29E54FB1167384870057FDA1;
+			productRefGroup = 29E54FBD167384870057FDA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29BDF0C3166B622900A4C87C /* MLAlertSplitView */,
-				29BDF0E4166B622900A4C87C /* MLAlertSplitViewTests */,
+				29E54FBB167384870057FDA1 /* MLAlertSplitView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29BDF0C2166B622900A4C87C /* Resources */ = {
+		29E54FBA167384870057FDA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29521FD6166D5A9400959B2C /* Default-568h@2x.png in Resources */,
-				29521FD7166D5A9400959B2C /* Default.png in Resources */,
-				29521FD8166D5A9400959B2C /* Default@2x.png in Resources */,
-				29521FDF166D5AB300959B2C /* MLSplitAlert-Info.plist in Resources */,
-				29521FE9166D5B0200959B2C /* InfoPlist.strings in Resources */,
-				29521FEC166D5B0200959B2C /* MLExampleViewController.xib in Resources */,
-				29521FED166D5B0200959B2C /* StupidFox_Loves_Books_by_SilentReaper.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29BDF0E2166B622900A4C87C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29521FCB166D5A4C00959B2C /* MLSplitAlertTests-Info.plist in Resources */,
-				29521FCF166D5A5D00959B2C /* InfoPlist.strings in Resources */,
+				29E54FCB167384870057FDA1 /* InfoPlist.strings in Resources */,
+				29E54FD3167384870057FDA1 /* Default.png in Resources */,
+				29E54FD5167384870057FDA1 /* Default@2x.png in Resources */,
+				29E54FD7167384870057FDA1 /* Default-568h@2x.png in Resources */,
+				29E5500A1673856D0057FDA1 /* MLExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		29BDF0E3166B622900A4C87C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		29BDF0C0166B622900A4C87C /* Sources */ = {
+		29E54FB8167384870057FDA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29521FE0166D5AB800959B2C /* main.m in Sources */,
-				29521FEA166D5B0200959B2C /* MLAppDelegate.m in Sources */,
-				29521FEB166D5B0200959B2C /* MLExampleViewController.m in Sources */,
-				29521FF7166D5B1100959B2C /* MLAlertSplitView.m in Sources */,
-				29521FF8166D5B1100959B2C /* MLRoundTransparentButton.m in Sources */,
-				29521FF9166D5B1100959B2C /* UIImage+MLCutImage.m in Sources */,
-				29521FFA166D5B1100959B2C /* UIView+MLScreenshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29BDF0E0166B622900A4C87C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29521FD2166D5A7A00959B2C /* MLSplitAlertTests.m in Sources */,
+				29E54FCD167384870057FDA1 /* main.m in Sources */,
+				29E54FD1167384870057FDA1 /* MLAppDelegate.m in Sources */,
+				29E55002167385430057FDA1 /* MLAlertSplitView.m in Sources */,
+				29E55003167385430057FDA1 /* MLRoundTransparentButton.m in Sources */,
+				29E55004167385430057FDA1 /* UIImage+MLCutImage.m in Sources */,
+				29E55005167385430057FDA1 /* UIView+MLScreenshot.m in Sources */,
+				29E550091673856D0057FDA1 /* MLExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		29BDF0EB166B622900A4C87C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 29BDF0C3166B622900A4C87C /* MLAlertSplitView */;
-			targetProxy = 29BDF0EA166B622900A4C87C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		29521FCD166D5A5D00959B2C /* InfoPlist.strings */ = {
+		29E54FC9167384870057FDA1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29521FCE166D5A5D00959B2C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		29521FE1166D5B0200959B2C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29521FE2166D5B0200959B2C /* en */,
+				29E54FCA167384870057FDA1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -370,7 +240,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		29BDF0F5166B622900A4C87C /* Debug */ = {
+		29E54FD8167384870057FDA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		29BDF0F6166B622900A4C87C /* Release */ = {
+		29E54FD9167384870057FDA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,93 +290,50 @@
 			};
 			name = Release;
 		};
-		29BDF0F8166B622900A4C87C /* Debug */ = {
+		29E54FDB167384870057FDA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLSplitAlert/MLSplitAlert-Prefix.pch";
-				INFOPLIST_FILE = "MLSplitAlert/MLSplitAlert-Info.plist";
+				GCC_PREFIX_HEADER = "MLAlertSplitView/MLAlertSplitView-Prefix.pch";
+				INFOPLIST_FILE = "MLAlertSplitView/MLAlertSplitView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		29BDF0F9166B622900A4C87C /* Release */ = {
+		29E54FDC167384870057FDA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLSplitAlert/MLSplitAlert-Prefix.pch";
-				INFOPLIST_FILE = "MLSplitAlert/MLSplitAlert-Info.plist";
+				GCC_PREFIX_HEADER = "MLAlertSplitView/MLAlertSplitView-Prefix.pch";
+				INFOPLIST_FILE = "MLAlertSplitView/MLAlertSplitView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		29BDF0FB166B622900A4C87C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLSplitAlert.app/MLSplitAlert";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLSplitAlert/MLSplitAlert-Prefix.pch";
-				INFOPLIST_FILE = "MLSplitAlertTests/MLSplitAlertTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		29BDF0FC166B622900A4C87C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MLSplitAlert.app/MLSplitAlert";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MLSplitAlert/MLSplitAlert-Prefix.pch";
-				INFOPLIST_FILE = "MLSplitAlertTests/MLSplitAlertTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29BDF0BE166B622900A4C87C /* Build configuration list for PBXProject "MLAlertSplitView" */ = {
+		29E54FB6167384870057FDA1 /* Build configuration list for PBXProject "MLAlertSplitView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29BDF0F5166B622900A4C87C /* Debug */,
-				29BDF0F6166B622900A4C87C /* Release */,
+				29E54FD8167384870057FDA1 /* Debug */,
+				29E54FD9167384870057FDA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29BDF0F7166B622900A4C87C /* Build configuration list for PBXNativeTarget "MLAlertSplitView" */ = {
+		29E54FDA167384870057FDA1 /* Build configuration list for PBXNativeTarget "MLAlertSplitView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29BDF0F8166B622900A4C87C /* Debug */,
-				29BDF0F9166B622900A4C87C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		29BDF0FA166B622900A4C87C /* Build configuration list for PBXNativeTarget "MLAlertSplitViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29BDF0FB166B622900A4C87C /* Debug */,
-				29BDF0FC166B622900A4C87C /* Release */,
+				29E54FDB167384870057FDA1 /* Debug */,
+				29E54FDC167384870057FDA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29BDF0BB166B622900A4C87C /* Project object */;
+	rootObject = 29E54FB3167384870057FDA1 /* Project object */;
 }
