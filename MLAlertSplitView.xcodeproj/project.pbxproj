@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E54FC1167384870057FDA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E54FC0167384870057FDA1 /* UIKit.framework */; };
+		29E54FC3167384870057FDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E54FC2167384870057FDA1 /* Foundation.framework */; };
+		29E54FC5167384870057FDA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E54FC4167384870057FDA1 /* CoreGraphics.framework */; };
+		29E54FCB167384870057FDA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FC9167384870057FDA1 /* InfoPlist.strings */; };
+		29E54FCD167384870057FDA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FCC167384870057FDA1 /* main.m */; };
+		29E54FD1167384870057FDA1 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FD0167384870057FDA1 /* MLAppDelegate.m */; };
+		29E54FD3167384870057FDA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FD2167384870057FDA1 /* Default.png */; };
+		29E54FD5167384870057FDA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FD4167384870057FDA1 /* Default@2x.png */; };
+		29E54FD7167384870057FDA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E54FD6167384870057FDA1 /* Default-568h@2x.png */; };
+		29E55002167385430057FDA1 /* MLAlertSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FFA167385430057FDA1 /* MLAlertSplitView.m */; };
+		29E55003167385430057FDA1 /* MLRoundTransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FFD167385430057FDA1 /* MLRoundTransparentButton.m */; };
+		29E55004167385430057FDA1 /* UIImage+MLCutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E54FFF167385430057FDA1 /* UIImage+MLCutImage.m */; };
+		29E55005167385430057FDA1 /* UIView+MLScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E55001167385430057FDA1 /* UIView+MLScreenshot.m */; };
+		29E550091673856D0057FDA1 /* MLExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E550071673856D0057FDA1 /* MLExampleViewController.m */; };
+		29E5500A1673856D0057FDA1 /* MLExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E550081673856D0057FDA1 /* MLExampleViewController.xib */; };
+		29E5500D167385D10057FDA1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E5500C167385D10057FDA1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E54FBC167384870057FDA1 /* MLAlertSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLAlertSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E54FC0167384870057FDA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29E54FC2167384870057FDA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29E54FC4167384870057FDA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29E54FC8167384870057FDA1 /* MLAlertSplitView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLAlertSplitView-Info.plist"; sourceTree = "<group>"; };
+		29E54FCA167384870057FDA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29E54FCC167384870057FDA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E54FCE167384870057FDA1 /* MLAlertSplitView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLAlertSplitView-Prefix.pch"; sourceTree = "<group>"; };
+		29E54FCF167384870057FDA1 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		29E54FD0167384870057FDA1 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		29E54FD2167384870057FDA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		29E54FD4167384870057FDA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		29E54FD6167384870057FDA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		29E54FF9167385430057FDA1 /* MLAlertSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlertSplitView.h; sourceTree = "<group>"; };
+		29E54FFA167385430057FDA1 /* MLAlertSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAlertSplitView.m; sourceTree = "<group>"; };
+		29E54FFB167385430057FDA1 /* MLAlertSplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAlertSplitViewDelegate.h; sourceTree = "<group>"; };
+		29E54FFC167385430057FDA1 /* MLRoundTransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRoundTransparentButton.h; sourceTree = "<group>"; };
+		29E54FFD167385430057FDA1 /* MLRoundTransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRoundTransparentButton.m; sourceTree = "<group>"; };
+		29E54FFE167385430057FDA1 /* UIImage+MLCutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MLCutImage.h"; sourceTree = "<group>"; };
+		29E54FFF167385430057FDA1 /* UIImage+MLCutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MLCutImage.m"; sourceTree = "<group>"; };
+		29E55000167385430057FDA1 /* UIView+MLScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLScreenshot.h"; sourceTree = "<group>"; };
+		29E55001167385430057FDA1 /* UIView+MLScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLScreenshot.m"; sourceTree = "<group>"; };
+		29E550061673856D0057FDA1 /* MLExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExampleViewController.h; sourceTree = "<group>"; };
+		29E550071673856D0057FDA1 /* MLExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExampleViewController.m; sourceTree = "<group>"; };
+		29E550081673856D0057FDA1 /* MLExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLExampleViewController.xib; sourceTree = "<group>"; };
+		29E5500C167385D10057FDA1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E54FB9167384870057FDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E5500D167385D10057FDA1 /* QuartzCore.framework in Frameworks */,
+				29E54FC1167384870057FDA1 /* UIKit.framework in Frameworks */,
+				29E54FC3167384870057FDA1 /* Foundation.framework in Frameworks */,
+				29E54FC5167384870057FDA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E54FB1167384870057FDA1 = {
+			isa = PBXGroup;
+			children = (
+				29E54FC6167384870057FDA1 /* MLAlertSplitView */,
+				29E54FBF167384870057FDA1 /* Frameworks */,
+				29E54FBD167384870057FDA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E54FBD167384870057FDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E54FBC167384870057FDA1 /* MLAlertSplitView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E54FBF167384870057FDA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29E5500C167385D10057FDA1 /* QuartzCore.framework */,
+				29E54FC0167384870057FDA1 /* UIKit.framework */,
+				29E54FC2167384870057FDA1 /* Foundation.framework */,
+				29E54FC4167384870057FDA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29E54FC6167384870057FDA1 /* MLAlertSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				29E5500B1673857F0057FDA1 /* Example */,
+				29E54FF8167385430057FDA1 /* Classes */,
+				29E54FC7167384870057FDA1 /* Supporting Files */,
+			);
+			path = MLAlertSplitView;
+			sourceTree = "<group>";
+		};
+		29E54FC7167384870057FDA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E54FC8167384870057FDA1 /* MLAlertSplitView-Info.plist */,
+				29E54FC9167384870057FDA1 /* InfoPlist.strings */,
+				29E54FCC167384870057FDA1 /* main.m */,
+				29E54FCE167384870057FDA1 /* MLAlertSplitView-Prefix.pch */,
+				29E54FD2167384870057FDA1 /* Default.png */,
+				29E54FD4167384870057FDA1 /* Default@2x.png */,
+				29E54FD6167384870057FDA1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29E54FF8167385430057FDA1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29E54FF9167385430057FDA1 /* MLAlertSplitView.h */,
+				29E54FFA167385430057FDA1 /* MLAlertSplitView.m */,
+				29E54FFB167385430057FDA1 /* MLAlertSplitViewDelegate.h */,
+				29E54FFC167385430057FDA1 /* MLRoundTransparentButton.h */,
+				29E54FFD167385430057FDA1 /* MLRoundTransparentButton.m */,
+				29E54FFE167385430057FDA1 /* UIImage+MLCutImage.h */,
+				29E54FFF167385430057FDA1 /* UIImage+MLCutImage.m */,
+				29E55000167385430057FDA1 /* UIView+MLScreenshot.h */,
+				29E55001167385430057FDA1 /* UIView+MLScreenshot.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29E5500B1673857F0057FDA1 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				29E54FCF167384870057FDA1 /* MLAppDelegate.h */,
+				29E54FD0167384870057FDA1 /* MLAppDelegate.m */,
+				29E550061673856D0057FDA1 /* MLExampleViewController.h */,
+				29E550071673856D0057FDA1 /* MLExampleViewController.m */,
+				29E550081673856D0057FDA1 /* MLExampleViewController.xib */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E54FBB167384870057FDA1 /* MLAlertSplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E54FDA167384870057FDA1 /* Build configuration list for PBXNativeTarget "MLAlertSplitView" */;
+			buildPhases = (
+				29E54FB8167384870057FDA1 /* Sources */,
+				29E54FB9167384870057FDA1 /* Frameworks */,
+				29E54FBA167384870057FDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLAlertSplitView;
+			productName = MLAlertSplitView;
+			productReference = 29E54FBC167384870057FDA1 /* MLAlertSplitView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E54FB3167384870057FDA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Marius Landwehr";
+			};
+			buildConfigurationList = 29E54FB6167384870057FDA1 /* Build configuration list for PBXProject "MLAlertSplitView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29E54FB1167384870057FDA1;
+			productRefGroup = 29E54FBD167384870057FDA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E54FBB167384870057FDA1 /* MLAlertSplitView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E54FBA167384870057FDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E54FCB167384870057FDA1 /* InfoPlist.strings in Resources */,
+				29E54FD3167384870057FDA1 /* Default.png in Resources */,
+				29E54FD5167384870057FDA1 /* Default@2x.png in Resources */,
+				29E54FD7167384870057FDA1 /* Default-568h@2x.png in Resources */,
+				29E5500A1673856D0057FDA1 /* MLExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E54FB8167384870057FDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E54FCD167384870057FDA1 /* main.m in Sources */,
+				29E54FD1167384870057FDA1 /* MLAppDelegate.m in Sources */,
+				29E55002167385430057FDA1 /* MLAlertSplitView.m in Sources */,
+				29E55003167385430057FDA1 /* MLRoundTransparentButton.m in Sources */,
+				29E55004167385430057FDA1 /* UIImage+MLCutImage.m in Sources */,
+				29E55005167385430057FDA1 /* UIView+MLScreenshot.m in Sources */,
+				29E550091673856D0057FDA1 /* MLExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29E54FC9167384870057FDA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E54FCA167384870057FDA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E54FD8167384870057FDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29E54FD9167384870057FDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E54FDB167384870057FDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLAlertSplitView/MLAlertSplitView-Prefix.pch";
+				INFOPLIST_FILE = "MLAlertSplitView/MLAlertSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29E54FDC167384870057FDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLAlertSplitView/MLAlertSplitView-Prefix.pch";
+				INFOPLIST_FILE = "MLAlertSplitView/MLAlertSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E54FB6167384870057FDA1 /* Build configuration list for PBXProject "MLAlertSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E54FD8167384870057FDA1 /* Debug */,
+				29E54FD9167384870057FDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E54FDA167384870057FDA1 /* Build configuration list for PBXNativeTarget "MLAlertSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E54FDB167384870057FDA1 /* Debug */,
+				29E54FDC167384870057FDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E54FB3167384870057FDA1 /* Project object */;
+}
